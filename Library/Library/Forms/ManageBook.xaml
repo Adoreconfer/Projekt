@@ -1,0 +1,27 @@
+﻿<Window x:Class="Library.Forms.ManageBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library.Forms"
+        mc:Ignorable="d"
+        Title="Manage Book"  Height="400" Width="450" Icon="/Forms/book.png">
+    <Grid>
+        <Label x:Name="___No_Name_" Content="Title" HorizontalAlignment="Left" Margin="100,26,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="titleBox" HorizontalAlignment="Left" Margin="136,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="___No_Name__Copy" Content="Author" HorizontalAlignment="Left" Margin="86,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.837,0.579"/>
+        <TextBox x:Name="authorBox" HorizontalAlignment="Left" Margin="136,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="___No_Name__Copy1" Content="Category" HorizontalAlignment="Left" Margin="74,106,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.492,0.387"/>
+        <TextBox x:Name="categoryBox" HorizontalAlignment="Left" Margin="136,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="___No_Name__Copy2" Content="ISBN" HorizontalAlignment="Left" Margin="96,146,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="isbnBox" HorizontalAlignment="Left" Margin="136,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="___No_Name__Copy3" Content="Publication year" HorizontalAlignment="Left" Margin="38,182,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="yearBox" HorizontalAlignment="Left" Margin="136,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="___No_Name__Copy4" Content="Total copies" HorizontalAlignment="Left" Margin="59,220,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="copiesBox" HorizontalAlignment="Left" Margin="136,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="categoryComboBox" HorizontalAlignment="Left" Margin="275,106,0,0" VerticalAlignment="Top" Width="116" Height="26"/>
+        <Button x:Name="backBtn" Content="Back" HorizontalAlignment="Left" Margin="309,312,0,0" VerticalAlignment="Top" Height="27" Width="82" Click="backBtn_Click"/>
+        <Button x:Name="manageBtn" Content="Manage button" HorizontalAlignment="Left" Margin="146,279,0,0" VerticalAlignment="Top" Height="27" Width="100" Click="manageBtn_Click"/>
+
+    </Grid>
+</Window>

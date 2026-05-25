@@ -1,0 +1,16 @@
+﻿<Window x:Class="Library.Forms.LibrarianMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library.Forms"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="450" Icon="/Forms/book.png">
+    <Grid>
+        <Label x:Name="welcomeText" Content="Welcome, " HorizontalAlignment="Left" Margin="51,45,0,0" VerticalAlignment="Top"/>
+        <Button Content="Log out" HorizontalAlignment="Left" Margin="373,21,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.757,-0.812" Click="Button_Click"/>
+        <Button x:Name="changePasswordBtn" Content="Change password" HorizontalAlignment="Center" VerticalAlignment="Top" Height="25" Width="118" Margin="0,260,0,0" Click="changePasswordBtn_Click"/>
+        <Button Content="Book catalog" HorizontalAlignment="Center" Margin="0,148,0,0" VerticalAlignment="Top" Height="25" Width="119" Click="BookCatalog"/>
+
+    </Grid>
+</Window>
