@@ -46,5 +46,12 @@ namespace Library.Forms
             bookCatalog.Show();
             this.Close();
         }
+
+        private void UserList(object sender, RoutedEventArgs e)
+        {
+            UserList userList = new UserList(username);
+            userList.Show();
+            this.Close();
+        }
     }
 }

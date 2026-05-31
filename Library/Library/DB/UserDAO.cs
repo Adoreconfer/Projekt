@@ -71,5 +71,40 @@ namespace Library.DB
 
             db.SaveChanges();
         }
+
+        public List<User> searchUser(string first_name, string last_name, string username, string role)
+        {
+            using (DBConnection db = new DBConnection())
+            {
+                var query = db.Users.AsQueryable();
+
+
+                if (!string.IsNullOrEmpty(first_name))
+                {
+                    string searchFirstName = first_name.Trim().ToLower();
+                    query = query.Where(u => u.FirstName.ToLower().StartsWith(searchFirstName));
+                }
+
+                if (!string.IsNullOrEmpty(last_name))
+                {
+                    string searchLastName = last_name.Trim().ToLower();
+                    query = query.Where(u => u.LastName.ToLower().StartsWith(searchLastName));
+                }
+
+                if (!string.IsNullOrEmpty(username))
+                {
+                    string searchUsername = username.Trim().ToLower();
+                    query = query.Where(u => u.Username.ToLower().StartsWith(searchUsername));
+                }
+
+                if (!string.IsNullOrEmpty(role) && !role.Equals("All", StringComparison.OrdinalIgnoreCase))
+                {
+                    string searchRole = role.Trim().ToLower();
+                    query = query.Where(u => u.Role.ToLower() == searchRole);
+                }
+
+                return query.ToList();
+            }
+        }
     }
 }

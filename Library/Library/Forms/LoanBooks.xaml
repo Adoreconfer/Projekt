@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Library.Forms"
         mc:Ignorable="d"
-        Title="LoanBooks" Height="450" Width="611">
-    <Grid Margin="10">
+        Title="LoanBooks" Height="450" Width="650" WindowStartupLocation="CenterScreen" Icon="/Forms/book.png">
+    <Grid Margin="15">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
@@ -19,32 +19,34 @@
                   IsReadOnly="True" 
                   SelectionMode="Single"
                   Background="White" 
-                  RowHeaderWidth="0"
-                  Margin="0,0,0,10">
+                  GridLinesVisibility="Horizontal"
+                  Margin="0,0,0,15">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding IdLoan}" Width="50"/>
                 <DataGridTextColumn Header="Title" Binding="{Binding Book.Title}" Width="*"/>
-                <DataGridTextColumn Header="Author" Width="150">
+
+                <DataGridTextColumn Header="Author" Width="1.5*">
                     <DataGridTextColumn.Binding>
-                        <MultiBinding StringFormat="{}{0} {1}">
+                        <MultiBinding StringFormat='{}{0} {1}'>
                             <Binding Path="Book.Author.FirstName" />
                             <Binding Path="Book.Author.LastName" />
                         </MultiBinding>
                     </DataGridTextColumn.Binding>
                 </DataGridTextColumn>
-                <DataGridTextColumn Header="ISBN" Binding="{Binding Book.ISBN}" Width="100"/>
-                <DataGridTextColumn Header="Loan date" Binding="{Binding LoanDate, StringFormat=\{0:yyyy-MM-dd\}}" Width="90"/>
-                <DataGridTextColumn Header="Due date" Binding="{Binding DueDate, StringFormat=\{0:yyyy-MM-dd\}}" Width="90"/>
-                <DataGridTextColumn Header="Fine" Binding="{Binding Fine}" Width="60"/>
+
+                <DataGridTextColumn Header="ISBN" Binding="{Binding Book.ISBN}" Width="110"/>
+                <DataGridTextColumn Header="Loan date" Binding="{Binding LoanDate, StringFormat=\{0:yyyy-MM-dd\}}" Width="95"/>
+                <DataGridTextColumn Header="Due date" Binding="{Binding DueDate, StringFormat=\{0:yyyy-MM-dd\}}" Width="95"/>
+                <DataGridTextColumn Header="Fine" Binding="{Binding Fine, StringFormat={}{0} PLN}" Width="70"/>
             </DataGrid.Columns>
         </DataGrid>
 
         <Button x:Name="backBtn" 
                 Grid.Row="1" 
                 Content="Back" 
-                Width="100" 
+                Width="90" 
                 Height="30" 
-                HorizontalAlignment="Center" 
+                HorizontalAlignment="Left" 
                 Click="backBtn_Click"/>
     </Grid>
 </Window>

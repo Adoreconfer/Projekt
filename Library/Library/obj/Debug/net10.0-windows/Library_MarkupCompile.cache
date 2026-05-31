@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\Uniwersytet\4semestr\PO2\Projekt\Library\Library\App.xaml
-91414262033
+11-664685032
 
-25402582910
+27536345908
 263112452957
-Forms\BookCatalog.xaml;Forms\BookCatalogLibrarian.xaml;Forms\ChangePassword.xaml;Forms\LibrarianMenu.xaml;Forms\LoanBooks.xaml;Forms\ManageBook.xaml;Forms\Register.xaml;Forms\UserMenu.xaml;MainWindow.xaml;
+Forms\BookCatalog.xaml;Forms\BookCatalogLibrarian.xaml;Forms\ChangePassword.xaml;Forms\LibrarianMenu.xaml;Forms\LoanBooks.xaml;Forms\ManageBook.xaml;Forms\ManageUser.xaml;Forms\Register.xaml;Forms\UserList.xaml;Forms\UserMenu.xaml;MainWindow.xaml;
 
 False
 

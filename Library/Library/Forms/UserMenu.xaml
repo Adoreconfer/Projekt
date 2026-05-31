@@ -5,12 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Library.Forms"
         mc:Ignorable="d"
-        Title="Menu" Height="450" Width="450" Icon="/Forms/book.png">
-    <Grid>
-        <Label x:Name="welcomeText" Content="Welcome, " HorizontalAlignment="Left" Margin="51,45,0,0" VerticalAlignment="Top"/>
-        <Button Content="Log out" HorizontalAlignment="Left" Margin="348,48,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.757,-0.812" Click="Button_Click" Width="60"/>
-        <Button Content="Book catalog" HorizontalAlignment="Center" Margin="0,148,0,0" VerticalAlignment="Top" Height="25" Width="119" Click="BookCatalog"/>
-        <Button x:Name="bookLoanBtn" Content="Book loans" HorizontalAlignment="Center" VerticalAlignment="Center" Height="25" Width="118" Click="bookLoanBtn_Click"/>
-        <Button x:Name="changePasswordBtn" Content="Change password" HorizontalAlignment="Center" VerticalAlignment="Top" Height="25" Width="118" Margin="0,260,0,0" Click="changePasswordBtn_Click"/>
+        Title="Menu" Height="400" Width="450" WindowStartupLocation="CenterScreen" Icon="/Forms/book.png">
+    <Grid Margin="20">
+        <Grid VerticalAlignment="Top">
+            <Label x:Name="welcomeText" Content="Welcome, " FontSize="16" FontWeight="SemiBold" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+            <Button Content="Log out" Width="75" Height="25" HorizontalAlignment="Right" VerticalAlignment="Center" Click="Button_Click"/>
+        </Grid>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="180">
+            <Button Content="Book catalog" Height="35" Margin="0,0,0,12" Click="BookCatalog"/>
+
+            <Button x:Name="bookLoanBtn" Content="Book loans" Height="35" Margin="0,0,0,12" Click="bookLoanBtn_Click"/>
+
+            <Button x:Name="changePasswordBtn" Content="Change password" Height="35" Click="changePasswordBtn_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

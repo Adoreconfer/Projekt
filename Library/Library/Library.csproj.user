@@ -20,7 +20,13 @@
     <Compile Update="Forms\ManageBook.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Forms\ManageUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Forms\Register.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\UserList.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Forms\UserMenu.xaml.cs">

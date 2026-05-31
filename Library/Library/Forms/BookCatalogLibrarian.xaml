@@ -5,39 +5,66 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Library.Forms"
         mc:Ignorable="d"
-        Title="Catalog" Height="600" Width="683" Icon="/Forms/book.png">
-    <Grid>
-        <DataGrid x:Name="BooksGrid" AutoGenerateColumns="False" IsReadOnly="True" GridLinesVisibility="Horizontal" Margin="0,113,0,112">
+        Title="Catalog" Height="600" Width="720" WindowStartupLocation="CenterScreen" Icon="/Forms/book.png">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="0,0,0,15">
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                <TextBox x:Name="searchBox" Width="280" Height="28" FontSize="16" VerticalContentAlignment="Center"/>
+                <Button x:Name="searchBtn" Content="Search" Width="75" Height="28" Margin="8,0,0,0" Click="searchBtn_Click"/>
+
+                <Label Content="Category:" VerticalAlignment="Center" Margin="25,0,5,0"/>
+                <ComboBox x:Name="classComboBox" Width="130" Height="28" VerticalContentAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="5,0,0,0">
+                <RadioButton x:Name="allRadio" GroupName="Type" Content="All" IsChecked="True" VerticalAlignment="Center" Margin="0,0,15,0"/>
+                <RadioButton x:Name="TitleRadio" GroupName="Type" Content="Title" VerticalAlignment="Center" Margin="0,0,15,0"/>
+                <RadioButton x:Name="AuthorRadio" GroupName="Type" Content="Author" VerticalAlignment="Center"/>
+            </StackPanel>
+
+        </StackPanel>
+
+        <DataGrid x:Name="BooksGrid" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" GridLinesVisibility="Horizontal">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*" />
-
                 <DataGridTextColumn Header="Author" Width="1.5*">
                     <DataGridTextColumn.Binding>
-                        <MultiBinding StringFormat="{}{0} {1}">
+                        <MultiBinding StringFormat='{}{0} {1}'>
                             <Binding Path="Author.FirstName" />
                             <Binding Path="Author.LastName" />
                         </MultiBinding>
                     </DataGridTextColumn.Binding>
                 </DataGridTextColumn>
-                <DataGridTextColumn Header="ISBN" Binding="{Binding ISBN}" Width="120" />
-                <DataGridTextColumn Header="Year" Binding="{Binding Year}" Width="120" />
-
-                <DataGridTextColumn Header="Category" Binding="{Binding Category.Name}" Width="120" />
-
-                <DataGridTextColumn Header="Total" Binding="{Binding TotalCopies}" Width="60" />
+                <DataGridTextColumn Header="ISBN" Binding="{Binding ISBN}" Width="110" />
+                <DataGridTextColumn Header="Year" Binding="{Binding Year}" Width="65" />
+                <DataGridTextColumn Header="Category" Binding="{Binding Category.Name}" Width="110" />
+                <DataGridTextColumn Header="Total" Binding="{Binding TotalCopies}" Width="55" />
                 <DataGridTextColumn Header="Available" Binding="{Binding AvailableCopies}" Width="70" />
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Back" HorizontalAlignment="Left" Margin="37,526,0,0" VerticalAlignment="Top" Height="27" Width="82" Click="Button_Click"/>
-        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="314" Height="28" FontSize="19"/>
-        <RadioButton x:Name="allRadio" GroupName="Type" Content="All" HorizontalAlignment="Left" Margin="24,65,0,0" VerticalAlignment="Top" IsChecked="True"/>
-        <RadioButton x:Name="TitleRadio" GroupName="Type" Content="Title" HorizontalAlignment="Left" Margin="102,65,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="AuthorRadio" GroupName="Type" Content="Author" HorizontalAlignment="Left" Margin="182,65,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="searchBtn" Content="Search" HorizontalAlignment="Left" Margin="342,10,0,0" VerticalAlignment="Top" Height="28" Width="68" Click="searchBtn_Click"/>
-        <ComboBox x:Name="classComboBox" HorizontalAlignment="Left" Margin="481,58,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Category" HorizontalAlignment="Left" Margin="512,24,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="addBtn_Copy" Content="Add book" HorizontalAlignment="Left" Margin="277,526,0,0" VerticalAlignment="Top" Height="27" Width="82" Click="addBtn_Click"/>
-        <Button x:Name="editBtn_Copy" Content="Edit book" HorizontalAlignment="Left" Margin="401,526,0,0" VerticalAlignment="Top" Height="27" Width="82" Click="editBtn_Click"/>
-        <Button x:Name="deleteBtn_Copy" Content="Delete book" HorizontalAlignment="Left" Margin="519,526,0,0" VerticalAlignment="Top" Height="27" Width="82" Click="deleteBtn_Click"/>
+
+        <Grid Grid.Row="2" Margin="0,15,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="Back" Grid.Column="0" Width="85" Height="30" Click="Button_Click"/>
+
+            <StackPanel Grid.Column="2" Orientation="Horizontal">
+                <Button x:Name="addBtn_Copy" Content="Add book" Width="90" Height="30" Margin="0,0,8,0" Click="addBtn_Click"/>
+                <Button x:Name="editBtn_Copy" Content="Edit book" Width="90" Height="30" Margin="0,0,8,0" Click="editBtn_Click"/>
+                <Button x:Name="deleteBtn_Copy" Content="Delete book" Width="90" Height="30" Click="deleteBtn_Click"/>
+            </StackPanel>
+        </Grid>
+
     </Grid>
 </Window>

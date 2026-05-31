@@ -51,7 +51,7 @@ namespace Library.Forms
 
             try
             {
-                user.addUser(username, password, firstname, lastname, "user");
+                user.addUser(username, password, firstname, lastname, "reader");
                 MainWindow main = new MainWindow();
                 main.Show();
 

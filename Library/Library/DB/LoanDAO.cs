@@ -14,10 +14,6 @@ namespace Library.DB
 
             db.Book.Attach(book);
 
-            if (book.AvailableCopies == 0) {
-                return;
-            }
-
             book.AvailableCopies--;
 
             Loan loan = new Loan

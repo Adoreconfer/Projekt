@@ -5,15 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Library"
         mc:Ignorable="d"
-        Title="Login" Height="350" Width="450" Icon="/login.png">
-    <Grid>
-        <Label Content="Username" HorizontalAlignment="Left" Margin="122,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.083,-2.292"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="122,114,0,0" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="190,118,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="usernameBox" HorizontalAlignment="Left" Margin="190,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Login" HorizontalAlignment="Center" Margin="0,183,0,0" VerticalAlignment="Top" Height="22" Width="90" Click="Button_Click"/>
-        <Button Content="Registration" HorizontalAlignment="Left" Margin="332,286,0,0" VerticalAlignment="Top" Height="22" Width="90" Click="Button_Click_1"/>
+        Title="Login" Height="320" Width="420" WindowStartupLocation="CenterScreen" Icon="/login.png">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
+        <Grid Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition Width="160"/>
+            </Grid.ColumnDefinitions>
 
+            <Label Grid.Row="0" Grid.Column="0" Content="Username" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,5,10,5"/>
+            <TextBox x:Name="usernameBox" Grid.Row="0" Grid.Column="1" Height="26" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+
+            <Label Grid.Row="1" Grid.Column="1" Content="" Margin="0,5,0,5"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="Password" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,5,10,5"/>
+            <PasswordBox x:Name="passwordBox" Grid.Row="1" Grid.Column="1" Height="26" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+
+            <Button Content="Login" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Width="100" Height="30" Margin="0,15,0,0" HorizontalAlignment="Center" Click="Button_Click"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="0,10,0,0">
+            <Button Content="Registration" HorizontalAlignment="Right" Width="95" Height="28" Click="Button_Click_1"/>
+        </Grid>
     </Grid>
 </Window>

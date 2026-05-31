@@ -118,6 +118,12 @@ namespace Library.Forms
                 User user = userDAO.getUserByUsername(username);
                 Book book = bookDAO.getBookByISBN(selectedBook.ISBN);
 
+                if (book.AvailableCopies == 0)
+                {
+                    MessageBox.Show($"The book \"{selectedBook.Title}\" is currently unavailable for loan.", "Loan Book Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+
                 loanDAO.addLoan(user, book);
 
                 searchBtn_Click(sender, e);

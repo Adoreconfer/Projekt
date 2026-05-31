@@ -7,16 +7,108 @@
       "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\managebook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\managebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\managebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\bookcataloglibrarian.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\bookcataloglibrarian.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\usermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\usermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\userlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\userlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\manageuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\manageuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\loanbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\loanbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\librarianmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\librarianmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\changepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\changepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\bookcatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\bookcatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\changepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\changepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\bookcatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\bookcatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\db\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\db\\bookdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\bookdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\db\\iuserdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\iuserdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\db\\ibookdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\ibookdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\managebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\managebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\librarianmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\librarianmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\usermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\usermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\loanbooks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\loanbooks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\db\\loandao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\loandao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,64 +119,12 @@
       "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\bookcatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\bookcatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\bookcataloglibrarian.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\bookcataloglibrarian.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\bookcataloglibrarian.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\bookcataloglibrarian.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\changepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\changepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\bookcatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\bookcatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\db\\iloandao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\iloandao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\changepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\changepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\librarianmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\librarianmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\librarianmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\librarianmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\usermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\usermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\usermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\usermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,40 +135,12 @@
       "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\db\\loandao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\loandao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\loanbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\loanbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\forms\\loanbooks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\forms\\loanbooks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\db\\iuserdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\iuserdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\db\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\db\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|d:\\uniwersytet\\4semestr\\po2\\projekt\\library\\library\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|Library\\Library.csproj|solutionrelative:library\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,28 +154,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ManageBook.xaml.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ManageBook.xaml.cs",
-              "RelativeDocumentMoniker": "Library\\Forms\\ManageBook.xaml.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ManageBook.xaml.cs",
-              "RelativeToolTip": "Library\\Forms\\ManageBook.xaml.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAgwJkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T18:06:58.717Z",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Library\\MainWindow.xaml",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\MainWindow.xaml*",
+              "RelativeToolTip": "Library\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T13:52:01.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\DBConnection.cs",
-              "RelativeDocumentMoniker": "Library\\DB\\DBConnection.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\DBConnection.cs",
-              "RelativeToolTip": "Library\\DB\\DBConnection.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAYwGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T13:43:58.579Z",
+              "DocumentIndex": 1,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\Register.xaml",
+              "RelativeDocumentMoniker": "Library\\Forms\\Register.xaml",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\Register.xaml*",
+              "RelativeToolTip": "Library\\Forms\\Register.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T15:54:14.121Z",
               "EditorCaption": ""
             },
             {
@@ -181,183 +191,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IBookDAO.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\IBookDAO.cs",
-              "RelativeDocumentMoniker": "Library\\DB\\IBookDAO.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\IBookDAO.cs",
-              "RelativeToolTip": "Library\\DB\\IBookDAO.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAowAoAAAAmAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Library\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T13:05:46.668Z",
+              "WhenOpened": "2026-05-11T13:33:30.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Library\\Models\\Book.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Book.cs",
-              "RelativeToolTip": "Library\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T15:11:56.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookDAO.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\BookDAO.cs",
-              "RelativeDocumentMoniker": "Library\\DB\\BookDAO.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\BookDAO.cs",
-              "RelativeToolTip": "Library\\DB\\BookDAO.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAYwIIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T13:20:42.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookCatalog.xaml.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalog.xaml.cs",
-              "RelativeDocumentMoniker": "Library\\Forms\\BookCatalog.xaml.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalog.xaml.cs",
-              "RelativeToolTip": "Library\\Forms\\BookCatalog.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwCkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T13:22:35.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "BookCatalogLibrarian.xaml",
               "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalogLibrarian.xaml",
               "RelativeDocumentMoniker": "Library\\Forms\\BookCatalogLibrarian.xaml",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalogLibrarian.xaml",
-              "RelativeToolTip": "Library\\Forms\\BookCatalogLibrarian.xaml",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalogLibrarian.xaml*",
+              "RelativeToolTip": "Library\\Forms\\BookCatalogLibrarian.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-25T15:24:17.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookCatalogLibrarian.xaml.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalogLibrarian.xaml.cs",
-              "RelativeDocumentMoniker": "Library\\Forms\\BookCatalogLibrarian.xaml.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalogLibrarian.xaml.cs",
-              "RelativeToolTip": "Library\\Forms\\BookCatalogLibrarian.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T15:30:28.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ChangePassword.xaml",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ChangePassword.xaml",
-              "RelativeDocumentMoniker": "Library\\Forms\\ChangePassword.xaml",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ChangePassword.xaml",
-              "RelativeToolTip": "Library\\Forms\\ChangePassword.xaml",
+              "DocumentIndex": 5,
+              "Title": "UserList.xaml",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\UserList.xaml",
+              "RelativeDocumentMoniker": "Library\\Forms\\UserList.xaml",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\UserList.xaml*",
+              "RelativeToolTip": "Library\\Forms\\UserList.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-23T08:38:54.739Z",
+              "WhenOpened": "2026-05-31T10:38:42.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BookCatalog.xaml",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalog.xaml",
-              "RelativeDocumentMoniker": "Library\\Forms\\BookCatalog.xaml",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalog.xaml",
-              "RelativeToolTip": "Library\\Forms\\BookCatalog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-25T14:38:41.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Library\\MainWindow.xaml",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\MainWindow.xaml",
-              "RelativeToolTip": "Library\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-11T13:52:01.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ILoanDAO.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\ILoanDAO.cs",
-              "RelativeDocumentMoniker": "Library\\DB\\ILoanDAO.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\ILoanDAO.cs",
-              "RelativeToolTip": "Library\\DB\\ILoanDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T15:55:31.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LibrarianMenu.xaml.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LibrarianMenu.xaml.cs",
-              "RelativeDocumentMoniker": "Library\\Forms\\LibrarianMenu.xaml.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LibrarianMenu.xaml.cs",
-              "RelativeToolTip": "Library\\Forms\\LibrarianMenu.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAhwCUAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T06:28:15.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LibrarianMenu.xaml",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LibrarianMenu.xaml",
-              "RelativeDocumentMoniker": "Library\\Forms\\LibrarianMenu.xaml",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LibrarianMenu.xaml",
-              "RelativeToolTip": "Library\\Forms\\LibrarianMenu.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-25T15:07:29.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ChangePassword.xaml.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ChangePassword.xaml.cs",
-              "RelativeDocumentMoniker": "Library\\Forms\\ChangePassword.xaml.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ChangePassword.xaml.cs",
-              "RelativeToolTip": "Library\\Forms\\ChangePassword.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T08:41:42.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserMenu.xaml.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\UserMenu.xaml.cs",
-              "RelativeDocumentMoniker": "Library\\Forms\\UserMenu.xaml.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\UserMenu.xaml.cs",
-              "RelativeToolTip": "Library\\Forms\\UserMenu.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T15:08:55.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "UserMenu.xaml",
               "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\UserMenu.xaml",
               "RelativeDocumentMoniker": "Library\\Forms\\UserMenu.xaml",
@@ -369,42 +239,308 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Register.xaml",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\Register.xaml",
-              "RelativeDocumentMoniker": "Library\\Forms\\Register.xaml",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\Register.xaml",
-              "RelativeToolTip": "Library\\Forms\\Register.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-11T15:54:14.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Library\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Library\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDwAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UserList.xaml.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\UserList.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\Forms\\UserList.xaml.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\UserList.xaml.cs",
+              "RelativeToolTip": "Library\\Forms\\UserList.xaml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAYwGkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T13:33:30.655Z"
+              "WhenOpened": "2026-05-31T11:08:18.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 8,
+              "Title": "ManageUser.xaml",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ManageUser.xaml",
+              "RelativeDocumentMoniker": "Library\\Forms\\ManageUser.xaml",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ManageUser.xaml",
+              "RelativeToolTip": "Library\\Forms\\ManageUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-31T12:24:24.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoanBooks.xaml",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LoanBooks.xaml",
+              "RelativeDocumentMoniker": "Library\\Forms\\LoanBooks.xaml",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LoanBooks.xaml",
+              "RelativeToolTip": "Library\\Forms\\LoanBooks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-23T10:10:46.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LibrarianMenu.xaml",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LibrarianMenu.xaml",
+              "RelativeDocumentMoniker": "Library\\Forms\\LibrarianMenu.xaml",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LibrarianMenu.xaml",
+              "RelativeToolTip": "Library\\Forms\\LibrarianMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-25T15:07:29.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChangePassword.xaml",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ChangePassword.xaml",
+              "RelativeDocumentMoniker": "Library\\Forms\\ChangePassword.xaml",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ChangePassword.xaml",
+              "RelativeToolTip": "Library\\Forms\\ChangePassword.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-23T08:38:54.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookCatalog.xaml",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalog.xaml",
+              "RelativeDocumentMoniker": "Library\\Forms\\BookCatalog.xaml",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalog.xaml",
+              "RelativeToolTip": "Library\\Forms\\BookCatalog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-25T14:38:41.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChangePassword.xaml.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ChangePassword.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\Forms\\ChangePassword.xaml.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ChangePassword.xaml.cs",
+              "RelativeToolTip": "Library\\Forms\\ChangePassword.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:41:42.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Register.xaml.cs",
               "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\Register.xaml.cs",
               "RelativeDocumentMoniker": "Library\\Forms\\Register.xaml.cs",
               "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\Register.xaml.cs",
               "RelativeToolTip": "Library\\Forms\\Register.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDUAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T16:39:22.085Z"
+              "WhenOpened": "2026-05-11T16:39:22.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookCatalog.xaml.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalog.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\Forms\\BookCatalog.xaml.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalog.xaml.cs",
+              "RelativeToolTip": "Library\\Forms\\BookCatalog.xaml.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAgwGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T13:22:35.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookDAO.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\BookDAO.cs",
+              "RelativeDocumentMoniker": "Library\\DB\\BookDAO.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\BookDAO.cs",
+              "RelativeToolTip": "Library\\DB\\BookDAO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T13:20:42.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserDAO.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\IUserDAO.cs",
+              "RelativeDocumentMoniker": "Library\\DB\\IUserDAO.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\IUserDAO.cs",
+              "RelativeToolTip": "Library\\DB\\IUserDAO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T15:17:41.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\UserDAO.cs",
+              "RelativeDocumentMoniker": "Library\\DB\\UserDAO.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\UserDAO.cs",
+              "RelativeToolTip": "Library\\DB\\UserDAO.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T15:55:35.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBookDAO.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\IBookDAO.cs",
+              "RelativeDocumentMoniker": "Library\\DB\\IBookDAO.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\IBookDAO.cs",
+              "RelativeToolTip": "Library\\DB\\IBookDAO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T13:05:46.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageBook.xaml.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ManageBook.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\Forms\\ManageBook.xaml.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\ManageBook.xaml.cs",
+              "RelativeToolTip": "Library\\Forms\\ManageBook.xaml.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAQwJ4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:06:58.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "LibrarianMenu.xaml.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LibrarianMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\Forms\\LibrarianMenu.xaml.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LibrarianMenu.xaml.cs",
+              "RelativeToolTip": "Library\\Forms\\LibrarianMenu.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwDUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T06:28:15.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\User.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\User.cs",
+              "RelativeToolTip": "Library\\Models\\User.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T14:59:55.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\Author.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Author.cs",
+              "RelativeToolTip": "Library\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T15:12:44.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserMenu.xaml.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\UserMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\Forms\\UserMenu.xaml.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\UserMenu.xaml.cs",
+              "RelativeToolTip": "Library\\Forms\\UserMenu.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwC8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:08:55.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoanDAO.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\LoanDAO.cs",
+              "RelativeDocumentMoniker": "Library\\DB\\LoanDAO.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\LoanDAO.cs",
+              "RelativeToolTip": "Library\\DB\\LoanDAO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T20:40:24.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoanBooks.xaml.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LoanBooks.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\Forms\\LoanBooks.xaml.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LoanBooks.xaml.cs",
+              "RelativeToolTip": "Library\\Forms\\LoanBooks.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T10:13:41.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\Book.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Book.cs",
+              "RelativeToolTip": "Library\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T15:11:56.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\DBConnection.cs",
+              "RelativeDocumentMoniker": "Library\\DB\\DBConnection.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\DBConnection.cs",
+              "RelativeToolTip": "Library\\DB\\DBConnection.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAYwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T13:43:58.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BookCatalogLibrarian.xaml.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalogLibrarian.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\Forms\\BookCatalogLibrarian.xaml.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\BookCatalogLibrarian.xaml.cs",
+              "RelativeToolTip": "Library\\Forms\\BookCatalogLibrarian.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:30:28.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ILoanDAO.cs",
+              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\ILoanDAO.cs",
+              "RelativeDocumentMoniker": "Library\\DB\\ILoanDAO.cs",
+              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\ILoanDAO.cs",
+              "RelativeToolTip": "Library\\DB\\ILoanDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:55:31.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "UserRole.cs",
               "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "Library\\Models\\UserRole.cs",
@@ -416,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\App.xaml",
               "RelativeDocumentMoniker": "Library\\App.xaml",
@@ -428,42 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LoanDAO.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\LoanDAO.cs",
-              "RelativeDocumentMoniker": "Library\\DB\\LoanDAO.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\LoanDAO.cs",
-              "RelativeToolTip": "Library\\DB\\LoanDAO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T20:40:24.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LoanBooks.xaml",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LoanBooks.xaml",
-              "RelativeDocumentMoniker": "Library\\Forms\\LoanBooks.xaml",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LoanBooks.xaml",
-              "RelativeToolTip": "Library\\Forms\\LoanBooks.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-23T10:10:46.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoanBooks.xaml.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LoanBooks.xaml.cs",
-              "RelativeDocumentMoniker": "Library\\Forms\\LoanBooks.xaml.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Forms\\LoanBooks.xaml.cs",
-              "RelativeToolTip": "Library\\Forms\\LoanBooks.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwBwAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T10:13:41.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "Loan.cs",
               "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Loan.cs",
               "RelativeDocumentMoniker": "Library\\Models\\Loan.cs",
@@ -475,31 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserDAO.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\UserDAO.cs",
-              "RelativeDocumentMoniker": "Library\\DB\\UserDAO.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\UserDAO.cs",
-              "RelativeToolTip": "Library\\DB\\UserDAO.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAA8wD4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T15:55:35.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IUserDAO.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\IUserDAO.cs",
-              "RelativeDocumentMoniker": "Library\\DB\\IUserDAO.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\DB\\IUserDAO.cs",
-              "RelativeToolTip": "Library\\DB\\IUserDAO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T15:17:41.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Library\\Models\\Category.cs",
@@ -508,30 +585,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T15:13:10.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Library\\Models\\User.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\User.cs",
-              "RelativeToolTip": "Library\\Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T14:59:55.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Author.cs",
-              "DocumentMoniker": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Author.cs",
-              "RelativeDocumentMoniker": "Library\\Models\\Author.cs",
-              "ToolTip": "D:\\Uniwersytet\\4semestr\\PO2\\Projekt\\Library\\Library\\Models\\Author.cs",
-              "RelativeToolTip": "Library\\Models\\Author.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T15:12:44.152Z"
             }
           ]
         }

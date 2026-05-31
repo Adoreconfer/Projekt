@@ -5,18 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Library.Forms"
         mc:Ignorable="d"
-        Title="Register" Height="300" Width="450" Icon="/Forms/reg.png">
-    <Grid>
-        <Label Content="Username" HorizontalAlignment="Left" Margin="97,112,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Left"/>
-        <Label Content="First name" HorizontalAlignment="Left" Margin="96,48,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Left"/>
-        <Label Content="Last name" HorizontalAlignment="Left" Margin="97,80,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Left" RenderTransformOrigin="0.373,0.502"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="99,142,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Left"/>
-        <TextBox x:Name="firstnameBox" HorizontalAlignment="Center" Margin="0,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="lastnameBox" HorizontalAlignment="Center" Margin="0,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="usernameBox" HorizontalAlignment="Center" Margin="0,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Center" Margin="0,146,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Back" HorizontalAlignment="Left" Margin="345,241,0,0" VerticalAlignment="Top" Width="61" Click="Button_Click_1"/>
-        <Button Content="Register" HorizontalAlignment="Center" Margin="0,192,0,0" VerticalAlignment="Top" Width="62" Click="Button_Click"/>
+        Title="Register" Height="340" Width="420" WindowStartupLocation="CenterScreen" Icon="/Forms/reg.png">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
+        <Grid Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="160"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="First name" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,5,10,5"/>
+            <TextBox x:Name="firstnameBox" Grid.Row="0" Grid.Column="1" Height="26" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Content="Last name" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,5,10,5"/>
+            <TextBox x:Name="lastnameBox" Grid.Row="1" Grid.Column="1" Height="26" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+
+            <Label Grid.Row="2" Grid.Column="0" Content="Username" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,5,10,5"/>
+            <TextBox x:Name="usernameBox" Grid.Row="2" Grid.Column="1" Height="26" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+
+            <Label Grid.Row="3" Grid.Column="0" Content="Password" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,5,10,5"/>
+            <PasswordBox x:Name="passwordBox" Grid.Row="3" Grid.Column="1" Height="26" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="0,15,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="Register" Grid.Column="0" Width="90" Height="30" Click="Button_Click"/>
+
+            <Button Content="Back" Grid.Column="2" Width="80" Height="30" Click="Button_Click_1"/>
+        </Grid>
     </Grid>
 </Window>

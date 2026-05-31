@@ -53,7 +53,7 @@ namespace Library
             {
                 switch (authenticatedUser.Role.ToLower())
                 {
-                    case "user":
+                    case "reader":
                         new UserMenu(username).Show();
                         break;
                     case "librarian":
