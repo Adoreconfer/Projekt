@@ -1,5 +1,6 @@
 ﻿using Library.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System.Data;
 using System.Linq;
 
@@ -54,6 +55,32 @@ namespace Library.DB
             db.SaveChanges();
         }
 
+        public void editUser(int idUser, string newUsername, string firstname, string lastname, string password, string role)
+        {
+            using (DBConnection db = new DBConnection())
+            {
+                User existingUser = db.Users.FirstOrDefault(u => u.IdUser == idUser);
+                if (existingUser == null)
+                {
+                    throw new Exception("The user you are trying to edit does not exist in the database.");
+                }
+
+                bool usernameExists = db.Users.Any(u => u.Username.ToLower() == newUsername.Trim().ToLower() && u.IdUser != idUser);
+                if (usernameExists)
+                {
+                    throw new Exception($"The username '{newUsername}' is already taken by another account.");
+                }
+
+                existingUser.Username = newUsername.Trim();
+                existingUser.FirstName = firstname.Trim();
+                existingUser.LastName = lastname.Trim();
+                existingUser.Password = password.Trim();
+                existingUser.Role = role.Trim();
+
+                db.SaveChanges();
+            }
+        }
+
         public User getUserByUsername(string username)
         {
             using DBConnection db = new DBConnection();
@@ -104,6 +131,45 @@ namespace Library.DB
                 }
 
                 return query.ToList();
+            }
+        }
+
+        public void deleteUser(int id)
+        {
+            using (DBConnection db = new DBConnection())
+            {
+                User user = db.Users
+                              .Include(u => u.Loans)
+                              .FirstOrDefault(u => u.IdUser == id);
+
+                if (user == null)
+                {
+                    throw new Exception("The user you are trying to delete does not exist.");
+                }
+
+                foreach (var loan in user.Loans)
+                {
+                    if (loan.ReturnDate == null)
+                    {
+                        var book = db.Book.FirstOrDefault(b => b.IdBook == loan.IdBook);
+                        if (book != null)
+                        {
+                            if (book.AvailableCopies < book.TotalCopies)
+                            {
+                                book.AvailableCopies += 1;
+                            }
+                        }
+                    }
+                }
+
+                if (user.Loans != null && user.Loans.Count > 0)
+                {
+                    db.Loan.RemoveRange(user.Loans);
+                }
+
+                db.Users.Remove(user);
+
+                db.SaveChanges();
             }
         }
     }

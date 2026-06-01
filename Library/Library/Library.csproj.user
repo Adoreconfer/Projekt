@@ -26,6 +26,9 @@
     <Compile Update="Forms\Register.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Forms\ReturnBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Forms\UserList.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

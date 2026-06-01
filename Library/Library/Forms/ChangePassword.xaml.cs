@@ -29,7 +29,7 @@ namespace Library.Forms
         {
             UserDAO user = new UserDAO();
             string role = user.getUserByUsername(username).Role;
-            if (role == "user")
+            if (role == "reader")
             {
                 UserMenu menu = new UserMenu(username);
                 menu.Show();

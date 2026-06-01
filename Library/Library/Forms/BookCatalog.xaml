@@ -24,7 +24,6 @@
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Margin="5,0,0,0">
-                <Label Content="Search by:" VerticalAlignment="Center" Margin="0,0,10,0" FontSize="11" Foreground="Gray"/>
                 <RadioButton x:Name="allRadio" GroupName="Type" Content="All" IsChecked="True" VerticalAlignment="Center" Margin="0,0,15,0"/>
                 <RadioButton x:Name="TitleRadio" GroupName="Type" Content="Title" VerticalAlignment="Center" Margin="0,0,15,0"/>
                 <RadioButton x:Name="AuthorRadio" GroupName="Type" Content="Author" VerticalAlignment="Center"/>

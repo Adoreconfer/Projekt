@@ -181,3 +181,5 @@ D:\Uniwersytet\4semestr\PO2\Projekt\Library\Library\obj\Debug\net10.0-windows\Fo
 D:\Uniwersytet\4semestr\PO2\Projekt\Library\Library\obj\Debug\net10.0-windows\Forms\UserList.baml
 D:\Uniwersytet\4semestr\PO2\Projekt\Library\Library\obj\Debug\net10.0-windows\Forms\ManageUser.g.cs
 D:\Uniwersytet\4semestr\PO2\Projekt\Library\Library\obj\Debug\net10.0-windows\Forms\ManageUser.baml
+D:\Uniwersytet\4semestr\PO2\Projekt\Library\Library\obj\Debug\net10.0-windows\Forms\ReturnBook.g.cs
+D:\Uniwersytet\4semestr\PO2\Projekt\Library\Library\obj\Debug\net10.0-windows\Forms\ReturnBook.baml

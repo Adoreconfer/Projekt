@@ -3,7 +3,7 @@ CREATE TABLE user_role (
 );
 
 INSERT INTO user_role (role_name)
-VALUES ('user'), ('librarian');
+VALUES ('reader'), ('librarian');
 
 CREATE TABLE Users (
     id_user INT IDENTITY(1,1) PRIMARY KEY,
@@ -86,4 +86,4 @@ INSERT INTO Book (title, id_author, id_category, isbn, year, total_copies, avail
 
 INSERT INTO Users (username, password, first_name, last_name, role) VALUES
 ('admin', 'admin1234', 'Jan', 'Kowalski', 'librarian'),
-('anna', 'anna1234', 'Anna', 'Nowak', 'user');
+('anna', 'anna1234', 'Anna', 'Nowak', 'reader');

@@ -9,5 +9,7 @@ namespace Library.DB
     {
         void addLoan(User user, Book book);
         List<Loan> getUserLoans(string username);
+        void calculateFine(List<Loan> loans);
+        void returnLoan(int idLoan);
     }
 }

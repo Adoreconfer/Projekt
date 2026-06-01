@@ -37,6 +37,7 @@
                 <DataGridTextColumn Header="ISBN" Binding="{Binding Book.ISBN}" Width="110"/>
                 <DataGridTextColumn Header="Loan date" Binding="{Binding LoanDate, StringFormat=\{0:yyyy-MM-dd\}}" Width="95"/>
                 <DataGridTextColumn Header="Due date" Binding="{Binding DueDate, StringFormat=\{0:yyyy-MM-dd\}}" Width="95"/>
+                <DataGridTextColumn Header="Return date" Binding="{Binding ReturnDate, StringFormat=\{0:yyyy-MM-dd\}}" Width="95"/>
                 <DataGridTextColumn Header="Fine" Binding="{Binding Fine, StringFormat={}{0} PLN}" Width="70"/>
             </DataGrid.Columns>
         </DataGrid>

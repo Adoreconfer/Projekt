@@ -1,4 +1,5 @@
 ﻿using Library.DB;
+using Library.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -24,9 +25,11 @@ namespace Library.Forms
             InitializeComponent();
             this.username = username;
 
-            LoanDAO loan = new LoanDAO();
-
-            LoansGrid.ItemsSource = loan.getUserLoans(username);
+            LoanDAO loanDAO = new LoanDAO();
+            
+            List<Loan> loans = loanDAO.getUserLoans(username);
+            LoansGrid.ItemsSource = loans;
+            loanDAO.calculateFine(loans);
         }
 
         private void backBtn_Click(object sender, RoutedEventArgs e)

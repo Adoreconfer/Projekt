@@ -2,15 +2,8 @@
 using Library.Models;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Library.Forms
 {
@@ -21,6 +14,7 @@ namespace Library.Forms
     {
         string username;
         UserDAO userDAO;
+
         public UserList(string username)
         {
             InitializeComponent();
@@ -44,29 +38,43 @@ namespace Library.Forms
 
         private void backBtn_Click(object sender, RoutedEventArgs e)
         {
-            UserDAO user = new UserDAO();
-            string role = user.getUserByUsername(username).Role;
-            if (role == "user")
+            try
             {
-                UserMenu menu = new UserMenu(username);
-                menu.Show();
-            }
-            if (role == "librarian")
-            {
-                LibrarianMenu menulib = new LibrarianMenu(username);
-                menulib.Show();
-            }
+                User targetUser = userDAO.getUserByUsername(username);
+                if (targetUser == null)
+                {
+                    MessageBox.Show("Active session user not found.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
 
-            this.Close();
+                string role = targetUser.Role;
+
+                if (role.Equals("reader", StringComparison.OrdinalIgnoreCase))
+                {
+                    UserMenu menu = new UserMenu(username);
+                    menu.Show();
+                }
+                else if (role.Equals("librarian", StringComparison.OrdinalIgnoreCase))
+                {
+                    LibrarianMenu menulib = new LibrarianMenu(username);
+                    menulib.Show();
+                }
+
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Navigation error: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void editUserBtn_Click(object sender, RoutedEventArgs e)
         {
             if (UsersGrid.SelectedItem is User selectedUser)
             {
-                //ManageUser manageWindow = new ManageUser(username, "Edit", selectedUser);
-                //manageWindow.Show();
-                //this.Close();
+                ManageUser manageWindow = new ManageUser(username, "Edit", selectedUser);
+                manageWindow.Show();
+                this.Close();
             }
             else
             {
@@ -78,14 +86,9 @@ namespace Library.Forms
         {
             if (UsersGrid.SelectedItem is User selectedUser)
             {
-                string info = $"User Information:\n\n" +
-                              $"ID: {selectedUser.IdUser}\n" +
-                              $"First Name: {selectedUser.FirstName}\n" +
-                              $"Last Name: {selectedUser.LastName}\n" +
-                              $"Username: {selectedUser.Username}\n" +
-                              $"Account Role: {selectedUser.Role}";
-
-                MessageBox.Show(info, "More Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                ReturnBook returnBook = new ReturnBook(selectedUser.Username);
+                returnBook.Show();
+                this.Close();
             }
             else
             {
@@ -95,9 +98,42 @@ namespace Library.Forms
 
         private void addUserBtn_Click(object sender, RoutedEventArgs e)
         {
-            //ManageUser manageWindow = new ManageUser(username, "Add", null);
-            //manageWindow.Show();
-            //this.Close();
+            ManageUser manageWindow = new ManageUser(username, "Add", null);
+            manageWindow.Show();
+            this.Close();
+        }
+
+        private void deleteUserBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (UsersGrid.SelectedItem is User selectedUser)
+            {
+                MessageBoxResult result = MessageBox.Show(
+                    $"Are you sure you want to permanently delete user '{selectedUser.Username}' (ID: {selectedUser.IdUser})?",
+                    "Confirm Deletion",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Question
+                );
+
+                if (result == MessageBoxResult.Yes)
+                {
+                    try
+                    {
+                        userDAO.deleteUser(selectedUser.IdUser);
+
+                        MessageBox.Show("The user has been successfully deleted.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                        searchBtn_Click(sender, e);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Failed to delete user: {ex.Message}", "Database Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a user from the list to delete.", "Selection Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
 
         private void searchBtn_Click(object sender, RoutedEventArgs e)
