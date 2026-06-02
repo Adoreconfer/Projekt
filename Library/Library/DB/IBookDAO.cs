@@ -15,5 +15,7 @@ namespace Library.DB
         void editBook(int idBook, string title, string authorFullName, string categoryName, string isbn, int year, int total);
         bool categoryExists(string categoryName);
         Category getCategoryByName(string categoryName);
+        List<Book> getAllBooksRaw();
+        void importBooksRaw(List<Book> books);
     }
 }

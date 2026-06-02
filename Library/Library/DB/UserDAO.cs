@@ -172,5 +172,34 @@ namespace Library.DB
                 db.SaveChanges();
             }
         }
+
+        public List<User> getAllUsersRaw()
+        {
+            using DBConnection db = new DBConnection();
+            return db.Users
+                     .Include(u => u.UserRole)
+                     .Include(u => u.Loans)    
+                     .ToList();
+        }
+
+        public void importUsersRaw(List<User> users)
+        {
+            using DBConnection db = new DBConnection();
+
+            db.Users.RemoveRange(db.Users);
+            db.SaveChanges();
+
+            if (users != null && users.Count > 0)
+            {
+                foreach (var user in users)
+                {
+                    user.UserRole = null;
+                    user.Loans = new List<Loan>();
+
+                    db.Users.Add(user);
+                }
+                db.SaveChanges();
+            }
+        }
     }
 }

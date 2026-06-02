@@ -207,6 +207,36 @@ namespace Library.DB
             using DBConnection db = new DBConnection();
             return db.Category.FirstOrDefault(c => c.Name.ToLower() == categoryName.Trim().ToLower());
         }
+
+        public List<Book> getAllBooksRaw()
+        {
+            using DBConnection db = new DBConnection();
+            return db.Book
+                     .Include(b => b.Author)   
+                     .Include(b => b.Category) 
+                     .ToList();
+        }
+
+        public void importBooksRaw(List<Book> books)
+        {
+            using DBConnection db = new DBConnection();
+
+            db.Book.RemoveRange(db.Book);
+            db.SaveChanges();
+
+            if (books != null && books.Count > 0)
+            {
+                foreach (var book in books)
+                {
+                    book.Author = null;
+                    book.Category = null;
+                    book.Loans = new List<Loan>();
+
+                    db.Book.Add(book);
+                }
+                db.SaveChanges();
+            }
+        }
     }
 
 }

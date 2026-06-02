@@ -106,5 +106,31 @@ namespace Library.DB
                 db.SaveChanges();
             }
         }
+
+        public List<Loan> getAllLoansRaw()
+        {
+            using DBConnection db = new DBConnection();
+            return db.Loan.ToList();
+        }
+
+        public void importLoansRaw(List<Loan> loans)
+        {
+            using DBConnection db = new DBConnection();
+
+            db.Loan.RemoveRange(db.Loan);
+            db.SaveChanges();
+
+            if (loans != null && loans.Count > 0)
+            {
+                foreach (var loan in loans)
+                {
+                    loan.Book = null;
+                    loan.User = null;
+
+                    db.Loan.Add(loan);
+                }
+                db.SaveChanges();
+            }
+        }
     }
 }

@@ -11,5 +11,7 @@ namespace Library.DB
         List<Loan> getUserLoans(string username);
         void calculateFine(List<Loan> loans);
         void returnLoan(int idLoan);
+        List<Loan> getAllLoansRaw();
+        void importLoansRaw(List<Loan> loans);
     }
 }

@@ -5,19 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Library.Forms"
         mc:Ignorable="d"
-        Title="Menu" Height="400" Width="450" WindowStartupLocation="CenterScreen" Icon="/Forms/book.png">
+        Title="Menu" Height="480" Width="480" WindowStartupLocation="CenterScreen" Icon="/Forms/book.png">
     <Grid Margin="20">
-        <Grid VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" VerticalAlignment="Top" Margin="0,0,0,10">
             <Label x:Name="welcomeText" Content="Welcome, " FontSize="16" FontWeight="SemiBold" VerticalAlignment="Center" HorizontalAlignment="Left"/>
             <Button Content="Log out" Width="75" Height="25" HorizontalAlignment="Right" VerticalAlignment="Center" Click="Button_Click"/>
         </Grid>
 
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="180">
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="180">
             <Button Content="Book catalog" Height="35" Margin="0,0,0,12" Click="BookCatalog"/>
-
             <Button Content="View user list" Height="35" Margin="0,0,0,12" Click="UserList"/>
-
             <Button x:Name="changePasswordBtn" Content="Change password" Height="35" Click="changePasswordBtn_Click"/>
         </StackPanel>
+
+        <GroupBox Grid.Row="2" Header="Data Backup &amp; Exchange" Padding="10" Margin="0,15,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="importDataBtn" Grid.Row="0" Grid.Column="0" Content="Import data" Width="100" Height="28" Click="importDataBtn_Click"/>
+                <Button x:Name="exportDataBtn" Grid.Row="1" Grid.Column="0" Content="Export data" Width="100" Height="28" Click="exportDataBtn_Click"/>
+
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0,0,0">
+                    <CheckBox x:Name="cbImpLoans" Content="Loans" Margin="0,0,15,0" VerticalAlignment="Center"/>
+                    <CheckBox x:Name="cbImpBooks" Content="Books" Margin="0,0,15,0" VerticalAlignment="Center"/>
+                    <CheckBox x:Name="cbImpUsers" Content="Users" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0,0,0">
+                    <CheckBox x:Name="cbExpLoans" Content="Loans" Margin="0,0,15,0" VerticalAlignment="Center"/>
+                    <CheckBox x:Name="cbExpBooks" Content="Books" Margin="0,0,15,0" VerticalAlignment="Center"/>
+                    <CheckBox x:Name="cbExpUsers" Content="Users" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
     </Grid>
 </Window>

@@ -15,5 +15,7 @@ namespace Library.DB
         void changePassword(string username, string newPassword);
         User getUserByUsername(string username);
         List<User> searchUser(string first_name, string last_name, string username, string role);
+        List<User> getAllUsersRaw();
+        void importUsersRaw(List<User> users);
     }
 }
