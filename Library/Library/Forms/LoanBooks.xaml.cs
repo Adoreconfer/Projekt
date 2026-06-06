@@ -20,6 +20,7 @@ namespace Library.Forms
     public partial class LoanBooks : Window
     {
         string username;
+        UserDAO userDAO;
         public LoanBooks(string username)
         {
             InitializeComponent();
@@ -34,10 +35,34 @@ namespace Library.Forms
 
         private void backBtn_Click(object sender, RoutedEventArgs e)
         {
-            UserMenu menu = new UserMenu(username);
-            menu.Show();
+            try
+            {
+                User targetUser = userDAO.getUserByUsername(username);
+                if (targetUser == null)
+                {
+                    MessageBox.Show("Active session user not found.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
 
-            this.Close();
+                string role = targetUser.Role;
+
+                if (role.Equals("reader", StringComparison.OrdinalIgnoreCase))
+                {
+                    UserMenu menu = new UserMenu(username);
+                    menu.Show();
+                }
+                else if (role.Equals("librarian", StringComparison.OrdinalIgnoreCase))
+                {
+                    LibrarianMenu menulib = new LibrarianMenu(username);
+                    menulib.Show();
+                }
+
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Navigation error: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

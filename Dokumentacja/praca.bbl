@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{CSharpDocs}
+C\# documentation.
+\newblock \url{https://learn.microsoft.com/en-us/dotnet/csharp/}.
+
+\bibitem{DBDiagram}
+dbdiagram.io.
+\newblock \url{https://dbdiagram.io/}.
+
+\bibitem{EFCoreDocs}
+Entity framework core documentation.
+\newblock \url{https://learn.microsoft.com/en-us/ef/core/}.
+
+\bibitem{MAK+}
+Instytut książki - program mak+.
+\newblock \url{https://www.instytutksiazki.pl/programy/mak/}.
+
+\bibitem{Koha}
+Koha - official website.
+\newblock \url{https://koha-community.org/}.
+
+\bibitem{SQLServerDocs}
+Sql server technical documentation.
+\newblock \url{https://learn.microsoft.com/en-us/sql/sql-server/}.
+
+\bibitem{MOLNET+}
+System biblioteczny mol net+ na vulcan.
+\newblock
+  \url{https://www.vulcan.edu.pl/szkoly-i-przedszkola/oprogramowanie/system-biblioteczny-mol-net}.
+
+\bibitem{WPFDocs}
+Windows presentation foundation (wpf) for .net -- overview.
+\newblock \url{https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/}.
+
+\end{thebibliography}

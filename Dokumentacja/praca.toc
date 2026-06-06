@@ -1,0 +1,17 @@
+\babel@toc {polish}{}\relax 
+\contentsline {chapter}{\numberline {1}Streszczenie w języku polskim i angielskim}{6}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Wprowadzenie i analiza problemu}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Wymagania systemowe}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Architektura i struktura aplikacji}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Technologie wykorzystane w projekcie}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Projekt bazy danych}{12}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Implementacja aplikacji}{14}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Harmonogram realizacji projektu}{18}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Instrukcja uruchomienia projektu}{19}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Prezentacja warstwy użytkowej projektu}{22}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Podsumowanie}{30}{chapter.11}%
+\contentsline {section}{\textbf {Bibliografia}}{31}{section*.24}%
+\contentsline {section}{\textbf {Spis rysunków}}{32}{chapter*.25}%
+\contentsline {section}{\textbf {Spis tabel}}{33}{chapter*.25}%
+\contentsline {section}{\textbf {Spis listingów}}{34}{chapter*.25}%
+\contentsline {section}{\textbf {Oświadczenie studenta o samodzielności pracy}}{35}{chapter*.27}%

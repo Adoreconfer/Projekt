@@ -1,0 +1,35 @@
+\babel@toc {polish}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Struktura folderów.}}{9}{figure.caption.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagram klas - modele bazodanowe.}}{10}{figure.caption.2}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagram ERD projektowanej bazy danych. \cite {DBDiagram} }}{13}{figure.caption.3}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagram klas - warstwa dostępu do danych (DAO).}}{14}{figure.caption.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Diagram Gantta przedstawiający etapy powstawania aplikacji.}}{18}{figure.caption.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Przywracanie bazy danych z pliku backupu (cz. 1).}}{19}{figure.caption.6}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Przywracanie bazy danych z pliku backupu (cz. 2).}}{19}{figure.caption.7}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Przywracanie bazy danych z pliku backupu (cz. 3).}}{20}{figure.caption.8}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Zarządzanie pakietami NuGet - pobrane biblioteki (cz. 1).}}{21}{figure.caption.9}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Zarządzanie pakietami NuGet - pobrane biblioteki (cz. 2).}}{21}{figure.caption.10}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Ekran logowania do systemu.}}{22}{figure.caption.11}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Ekran rejestracji nowego użytkownika.}}{22}{figure.caption.12}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Główne menu administratora z panelem zarządzania kopiami zapasowymi.}}{23}{figure.caption.13}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Katalog książek z wyszukiwarką i opcjami zarządzania (widok bibliotekarza).}}{24}{figure.caption.14}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Formularz dodawania nowej książki do bazy.}}{24}{figure.caption.15}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Formularz edycji danych istniejącej książki.}}{25}{figure.caption.16}%
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Lista użytkowników z opcjami zarządzania kontami.}}{25}{figure.caption.17}%
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Formularz edycji danych użytkownika.}}{26}{figure.caption.18}%
+\contentsline {figure}{\numberline {10.9}{\ignorespaces Formularz dodawania nowego użytkownika przez bibliotekarza.}}{27}{figure.caption.19}%
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Panel obsługi zwrotów wypożyczonych książek.}}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {10.11}{\ignorespaces Formularz zmiany hasła użytkownika.}}{28}{figure.caption.21}%
+\contentsline {figure}{\numberline {10.12}{\ignorespaces Przykład działania wyszukiwarki na liście użytkowników.}}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {10.13}{\ignorespaces Przykładowa zawartość pliku eksportu danych \texttt {LibraryBackup.json}.}}{29}{figure.caption.23}%
+\addvspace {10\p@ }
