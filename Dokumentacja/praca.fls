@@ -226,9 +226,6 @@ INPUT praca.aux
 INPUT .\chapters\Lab001.aux
 INPUT .\chapters\Lab001.aux
 INPUT chapters\Lab001.aux
-INPUT .\appendix\statement-A.aux
-INPUT .\appendix\statement-A.aux
-INPUT appendix\statement-A.aux
 OUTPUT praca.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -653,19 +650,17 @@ INPUT .\praca.lol
 INPUT .\praca.lol
 INPUT praca.lol
 OUTPUT praca.lol
-INPUT .\appendix\statement-A.tex
-INPUT .\appendix\statement-A.tex
-OUTPUT appendix\statement-A.aux
-INPUT .\appendix\statement-A.tex
-INPUT .\appendix\statement-A.tex
-INPUT appendix\statement-A.tex
+INPUT .\figures\oswiadczenie.jpg
+INPUT .\figures\oswiadczenie.jpg
+INPUT .\figures\oswiadczenie.jpg
+INPUT .\figures\oswiadczenie.jpg
+INPUT .\figures\oswiadczenie.jpg
+INPUT .\figures\oswiadczenie.jpg
+INPUT .\figures\oswiadczenie.jpg
 INPUT praca.aux
 INPUT .\chapters\Lab001.aux
 INPUT .\chapters\Lab001.aux
 INPUT chapters\Lab001.aux
-INPUT .\appendix\statement-A.aux
-INPUT .\appendix\statement-A.aux
-INPUT appendix\statement-A.aux
 INPUT .\praca.out
 INPUT .\praca.out
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb

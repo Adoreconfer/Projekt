@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.1)  6 JUN 2026 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.1)  10 JUN 2026 18:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -639,7 +639,7 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (praca.aux
 Package babel Info: 'polish' activates 'polish' shorthands.
 (babel)             Reported on input line 8.
- (chapters/Lab001.aux) (appendix/statement-A.aux))
+ (chapters/Lab001.aux))
 \openout1 = `praca.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 212.
@@ -1240,52 +1240,39 @@ Underfull \hbox (badness 6157) in paragraph at lines 28--31
 
 
 ]
-\openout2 = `appendix/statement-A.aux'.
-
- (appendix/statement-A.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
-
- []
-
-) [35
-
-
-
-]
+Rozdzia\l  12.
+<figures/oswiadczenie.jpg, id=517, 597.6729pt x 845.19765pt>
+File: figures/oswiadczenie.jpg Graphic file (type jpg)
+<use figures/oswiadczenie.jpg>
+Package pdftex.def Info: figures/oswiadczenie.jpg  used on input line 271.
+(pdftex.def)             Requested size: 426.79135pt x 603.55084pt.
 
 Package caption Warning: Unused \captionsetup[sub] on input line 23.
 See the caption package documentation for explanation.
 
-(praca.aux (chapters/Lab001.aux) (appendix/statement-A.aux))
+[35
+
+
+ <./figures/oswiadczenie.jpg>] (praca.aux (chapters/Lab001.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: 9733BC37BE156F9475E9D50256D30A49;2921.
+(rerunfilecheck)             Checksum: 6AB98FB9BD239CB20D3143A83985753C;2910.
  ) 
 Here is how much of TeX's memory you used:
- 23677 strings out of 467871
- 445061 string characters out of 5428444
- 1664497 words of memory out of 5000000
- 51983 multiletter control sequences out of 15000+600000
+ 23648 strings out of 467871
+ 444106 string characters out of 5428444
+ 1663918 words of memory out of 5000000
+ 51968 multiletter control sequences out of 15000+600000
  689018 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,13n,94p,852b,2882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (33 pages, 3383110 bytes).
+Output written on praca.pdf (33 pages, 3653247 bytes).
 PDF statistics:
- 602 PDF objects out of 1000 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 597 PDF objects out of 1000 (max. 8388607)
+ 202 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
